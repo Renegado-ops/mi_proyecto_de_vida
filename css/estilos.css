@@ -1,0 +1,629 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+:root{
+    scroll-behavior: smooth;
+}
+*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.printer {
+    height: 53vh;
+    width: 45vh;
+    display:block;
+    margin:auto;
+    box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 1vh;
+}
+.contenedor {
+    width: 90%;
+    max-width: 1200;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+    color: #ffff;
+    text-align: center;
+    
+}
+
+header {
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(161, 140, 209, 0.425) 0%, #fbc2eb6e 100%), url(/img/soekarno-omar-U9cGsrdes24-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.head {
+    text-align: center;
+    padding: 18vw;
+    height: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffff;
+}
+
+.hamburger {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background: #ffff;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.menu-navegacion {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30vw;
+    height: 100%;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: transform .3s ease-in-out;
+    transform: translateX(110%);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.spread {
+    transform: translate(0);
+}
+
+.menu-navegacion a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+.titulo{
+    font-size: 60px;
+    margin-bottom: 15px;
+    color: #330867 ;
+}
+
+.copy {
+    font-weight: 300;
+    font-size: 25px;
+}
+
+#agra{
+    margin-left: 20%;
+    padding-top: 5%;
+}
+
+.agrada{
+    color: #330867;
+    padding: 1%;
+    margin-left: 9%;
+}
+
+.agradecimiento{
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.5);
+    margin-left: 5%;
+}
+
+
+.fami {
+    position: absolute;
+    margin-left: 40%;
+    top: 12.3%;
+}
+
+.famfon {
+    margin-left: 10%;
+}
+
+#metas{
+    text-align: center;
+    list-style: none;
+    color: #552e81;
+}
+
+.tres{
+    padding: 2%;
+}
+
+.corto{
+    position: absolute;
+    margin-right: 20%;
+    bottom: 27.3%;
+    text-align-last: left;
+
+}
+
+.mediano{
+    position: absolute;
+    margin-left: 30%;
+    bottom: 26.8%;
+    text-align-last: center;
+}
+
+.largo{
+    position: absolute;
+    margin-left: 70%;
+    bottom: 21.7%;
+    text-align-last: right;
+}
+
+.v{
+    margin-top: 30px;
+}
+
+.vir{
+    text-align: center;
+    color: #330867;
+    bottom: 100px;
+}
+
+.virt{
+    width: 60%;
+    height: 50%;
+    top: 30px;
+}
+
+.intemult{
+    color: #330867;
+
+}
+
+.int{
+    width: 60%;
+    height: 50%;
+}
+
+.person{
+    text-align: center;
+    color: #330867;
+    width: 60%;
+    height: 50%;
+}
+
+.unico{
+    text-align: center;
+    color: #330867;
+
+}
+
+.enojo{
+    position: absolute;
+    margin-left: 40%;
+    top: 12.3%;
+}
+
+.feliz{
+    text-align: center;
+    color: #330867;
+}
+
+.quien{
+    text-align: center;
+    color: #330867;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*servicio*/
+/*
+.subtitulo {
+    text-align: center;
+    font-weight: 300;
+    color: #9f8ad0;
+    margin-bottom: 40px;
+    font-size: 40px;
+
+}
+
+.contenedor-servicio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-servicio img {
+    width: 40%;
+}
+.checklist-servicio {
+    width: 45%;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.n-service{
+    margin-bottom: 7px;
+    color: #9f8ad0;
+}
+
+.number {
+    display: inline-block;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    width: 30px;
+    height: 30px;
+    color: #ffff;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+.gallery{
+    background: #f2f2f2;
+}
+
+.contenedor-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.img-galeria{
+    width: 30%;
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+
+/*
+.foto1 {
+    object-fit: cover;
+    width: 400px;
+    height: auto;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.foto2 {
+    object-fit: cover;
+    width: 400px;
+    height: auto;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.foto3 {
+    object-fit: cover;
+    width: 400px;
+    height: auto;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.foto4 {
+    object-fit: cover;
+    width: 400px;
+    height: auto;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.foto5 {
+    object-fit: cover;
+    width: 400px;
+    height: 266px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.foto6 {
+    object-fit: cover;
+    width: 400px;
+    height: auto;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    border-radius: 10px;
+}
+*/
+/*
+.imagen-light{
+    position: fixed;
+    background: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    transform: translate(100%);
+    transition: transform .2s ease-in-out;
+}
+
+.show{
+    transform: translate(0);
+}
+
+.agregar-imagen{
+    object-fit: cover;
+    width: 60%;
+    border-radius: 10px;
+    transform: scale(0);
+    transition: transform .3s .2s;
+}
+
+.showimage{
+    transform: scale(1);
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    cursor: pointer;
+}
+
+
+.experts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cont-expert{
+    width: 400px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cont-expert img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.n-expert{
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 400;
+}
+
+footer{
+    background-image: linear-gradient(to top, #007adf 10%, #00ecbc 100%);;
+    padding-bottom: 0.1px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contact-us{
+    width: 40%;
+    color: #ffff;
+}
+
+.brand{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.brand+p{
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 800px){
+    .menu-navegacion{
+        width: 50vw;
+    }
+
+    .titulo{
+        font-size: 40px;
+    }
+
+    .contenedor-servicio img {
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    .checklist-servicio{
+        width: 80%;
+    }
+
+    .service{
+        margin-bottom: 30px;
+    }
+
+    .agregar-imagen{
+        width: 80%;
+    }
+
+    .foto1{
+        width: 45%;
+    }
+    .foto2{
+        width: 45%;
+    }
+    .foto3{
+        width: 45%;
+    }
+    .foto4{
+        width: 45%;
+    }
+    .foto5{
+        width: 45%;
+    }
+    .foto6{
+        width: 45%;
+    }
+
+    .cont-expert{
+        width: 80%;
+    }
+
+    .footer-content{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:500px){
+    .menu-navegacion{
+        width: 65vw;
+    }
+
+    .hamburger{
+        top: 20px;
+        right: 20px;
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+
+    .subtitulo{
+        font-size: 30px;
+    }
+
+    .agregar-imagen{
+        width: 95%;
+    }
+
+    .foto1{
+        width: 95%;
+    }
+    .foto2{
+        width: 95%;
+    }
+    .foto3{
+        width: 95%;
+    }
+    .foto4{
+        width: 95%;
+    }
+    .foto5{
+        width: 95%;
+    }
+    .foto6{
+        width: 95%;
+    }
+
+    .contact-us{
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
