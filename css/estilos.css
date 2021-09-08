@@ -22,7 +22,7 @@ body{
 }
 .contenedor {
     width: 90%;
-    max-width: 1200;
+    max-width: 1200px;
     overflow: hidden;
     margin: auto;
     padding: 60px 0;
@@ -33,7 +33,8 @@ body{
 
 header {
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(161, 140, 209, 0.425) 0%, #fbc2eb6e 100%), url(./img/soekarno-omar-U9cGsrdes24-unsplash.jpg);
+    /*background-image: linear-gradient(to top, rgba(161, 140, 209, 0.425) 0%, #fbc2eb6e 100%), url(./);*/
+    background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
