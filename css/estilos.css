@@ -12,6 +12,25 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+li{
+    list-style: none;
+}
+
+.me{
+    padding: 3%;
+    position: absolute;
+    margin-left: 40%;
+    top: 130px;
+}
+
+.uls{
+    padding: 3%;
+    position: absolute;
+    margin-left: 43%;
+    top: 30%;
+    text-align: center;
+}
+
 .printer {
     height: 53vh;
     width: 45vh;
@@ -78,6 +97,7 @@ header {
     transition: transform .3s ease-in-out;
     transform: translateX(110%);
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    z-index: 10;
 }
 
 .spread {
@@ -95,6 +115,25 @@ header {
     color: #330867 ;
 }
 
+h1{
+    font-size: 60px;
+    color: #330867 ;
+}
+
+h2, h3, h4{
+    font-size: 30px;
+    color: #330867 ;
+}
+
+p, b, li{
+    font-size: 25px;
+    color: #330867 ;
+}
+
+p,b{
+    text-align: justify;
+}
+
 .copy {
     font-weight: 300;
     font-size: 25px;
@@ -108,7 +147,8 @@ header {
 .agrada{
     color: #330867;
     padding: 1%;
-    margin-left: 9%;
+    margin-left: 4%;
+    font-size: 30px;
 }
 
 .agradecimiento{
@@ -121,6 +161,7 @@ header {
     position: absolute;
     margin-left: 40%;
     top: 12.3%;
+    font-size: 30px;
 }
 
 .famfon {
@@ -129,8 +170,15 @@ header {
 
 #metas{
     text-align: center;
-    list-style: none;
     color: #552e81;
+}
+
+.mis{
+    padding: 2%;
+}
+
+.fotomis{
+    top: 300px;
 }
 
 .tres{
@@ -140,27 +188,27 @@ header {
 .corto{
     position: absolute;
     margin-right: 20%;
-    bottom: 27.3%;
+    bottom: 50%;
     text-align-last: left;
-
 }
 
 .mediano{
     position: absolute;
-    margin-left: 30%;
-    bottom: 26.8%;
+    margin-left: 20%;
+    bottom: 5%;
     text-align-last: center;
 }
 
 .largo{
     position: absolute;
     margin-left: 70%;
-    bottom: 21.7%;
+    bottom: 33%;
     text-align-last: right;
 }
 
+
 .v{
-    margin-top: 30px;
+    padding: 45px;
 }
 
 .vir{
@@ -175,46 +223,101 @@ header {
     top: 30px;
 }
 
-.intemult{
-    color: #330867;
-
-}
-
-.int{
-    width: 60%;
-    height: 50%;
-}
-
 .person{
-    text-align: center;
-    color: #330867;
-    width: 60%;
+    margin-left: 23%;
+    width: 50%;
     height: 50%;
+}
+
+.test{
+    padding: 3%;
+    margin-left: 37%;
 }
 
 .unico{
     text-align: center;
     color: #330867;
+}
 
+.respeto{
+    text-align: justify;
+    position: absolute;
+    margin-left: 40%;
+}
+
+.fotouni{
+    bottom: 30%;
 }
 
 .enojo{
     position: absolute;
-    margin-left: 40%;
-    top: 12.3%;
+    padding-left: 40%;
+    top: 10%;
+ } 
+
+.enojado{
+    padding: 2%;
 }
 
+
 .feliz{
-    text-align: center;
-    color: #330867;
+    text-align: left;
 }
 
 .quien{
-    text-align: center;
     color: #330867;
+    padding: 2% 25%;
+    z-index: 10;
+    font-size: 20px;
+}
+
+.soy{
+    position: absolute;
+    margin-left: 17%;
+    bottom: 8%;
+}
+
+.soyyy{
+    padding: 3%;
+    margin-left: 30%;
+}
+
+.cosasfeliz{
+    /* padding-left: 40%; */
+    list-style: none;
+    margin-right: 25%;
+}
+
+.cosasenojo{
+    text-align: center;
+    list-style: none;
+    margin-right: 25%;
+}
+
+.pain{
+    padding: 3%;
+    text-align: justify;
+}
+
+.intmul{
+    padding-top: 4%;
+    margin-left: 35%;
 }
 
 
+.int{
+    width: 60%;
+    height: 50%;
+    margin-left: 20%;
+}
+
+.unic{
+    padding: 3%;
+}
+
+img{
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.5);
+}
 
 
 
