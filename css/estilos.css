@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 * {
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -13,6 +11,7 @@
 */
 body{
     font-family: 'allison', allison;
+    background-image: url(../img/fondo.jpg);
 }
 
 li{
@@ -35,28 +34,22 @@ li{
 }
 
 .printer {
-    height: 53vh;
-    width: 45vh;
-    display:block;
-    margin:auto;
-    box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.5);
+    width: 40vh;
     border-radius: 1vh;
+    margin: 3%;
 }
 .contenedor {
     width: 90%;
     max-width: 1200px;
-    overflow: hidden;
     margin: auto;
-    padding: 60px 0;
     color: #ffff;
     text-align: center;
     
 }
 
 header {
-    height: 100vh;
+    height: 102vh;
     /*background-image: linear-gradient(to top, rgba(161, 140, 209, 0.425) 0%, #fbc2eb6e 100%), url(./);*/
-    background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -112,15 +105,10 @@ header {
     text-decoration: none;
 }
 
-.titulo{
-    font-size: 60px;
-    margin-bottom: 15px;
-    color: #330867 ;
-}
-
 h1{
     font-size: 60px;
     color: #330867 ;
+    margin-bottom: 15px;
 }
 
 h2, h3, h4{
@@ -250,32 +238,38 @@ p,b{
 .respeto{
     text-align: justify;
     position: absolute;
-    margin-left: 40%;
+    margin-left: 38%;
 }
 
 .fotouni{
     bottom: 30%;
     width: 250px;
     height: 200px;
+    border-radius: 2%;
 }
 
 .enojo{
     position: absolute;
-    padding-left: 40%;
     top: 10%;
+    width: 100%;
+    height: 100%;
  } 
 
 .enojado{
-    padding: 2%;
+    margin: 2%;
     width: 250px;
     height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 40%;
 }
 
 
 .feliz{
     text-align: left;
-    height: 652px;
-    width: 450px;
+    width: 400px;
+    border-radius: 1%;
+    box-shadow: -11px -11px 90px 14px rgba(0, 0, 0);
 }
 
 .quien{
@@ -288,9 +282,10 @@ p,b{
 .soy{
     position: absolute;
     margin-left: 17%;
-    bottom: 8%;
     width: 220px;
     height: 300px;
+    border-radius: 1vh;
+    bottom: 5%;
 }
 
 .soyyy{
@@ -307,12 +302,14 @@ p,b{
 .cosasenojo{
     text-align: center;
     list-style: none;
-    margin-right: 25%;
 }
 
 .pain{
     padding: 3%;
     text-align: justify;
+    position: absolute;
+    margin-left: 32%;
+    top: 40%;
 }
 
 .intmul{
@@ -327,12 +324,12 @@ p,b{
     margin-left: 20%;
 }
 
-.unic{
+/* .unic{
     padding: 3%;
-}
+} */
 
 img{
-    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.5);
+    box-shadow: 8px 10px 9px 1px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -747,3 +744,7 @@ footer{
 
 
 
+#home {
+   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('file:///Volumes/Animus/Jon/Dropbox/website/hellcity.jpg');
+  background-size: cover;
+}
