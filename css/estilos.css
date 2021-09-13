@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,300&family=Yeseva+One&display=swap');
 
 * {
     padding: 0;
@@ -10,7 +10,7 @@
 }
 */
 body{
-    font-family: 'allison', allison;
+    font-family: 'Source serif pro', sans-serif;
     background-image: url(../img/fondo.jpg);
 }
 
@@ -163,25 +163,31 @@ p,b{
     height: 400px;
 }
 
-#metas{
-    text-align: center;
-    color: #552e81;
-}
-
-.mis{
-    padding: 2%;
-}
-
-.fotomis{
-    top: 300px;
-    height: 280px;
-}
-
 .tres{
     padding: 2%;
 }
 
-.corto{
+  div.contenedor-metas { 
+    display: flex;
+    justify-content: center;
+  }
+  h2.mis {
+    text-align: center;
+  }
+
+  .alineado-derecho{
+    text-align: right;
+  }
+  
+  .alineado-izquierdo{
+    text-align: left;
+  }
+  
+  .alineado-centro{
+    text-align: center;
+  }
+
+/* .corto{
     position: absolute;
     margin-right: 20%;
     bottom: 50%;
@@ -191,7 +197,6 @@ p,b{
 .mediano{
     position: absolute;
     margin-left: 20%;
-    bottom: 5%;
     text-align-last: center;
 }
 
@@ -200,34 +205,33 @@ p,b{
     margin-left: 70%;
     bottom: 33%;
     text-align-last: right;
-}
+} */
 
 
 .v{
-    padding: 45px;
+    margin: 45px;
 }
 
 .vir{
     text-align: center;
-    color: #330867;
     bottom: 100px;
 }
 
 .virt{
     width: 60%;
     height: 50%;
-    top: 30px;
+
 }
 
 .person{
-    margin-left: 23%;
-    width: 518px;
-     height: 280px;
+    margin-left: 20%;
+    width: 60%;
+     height: 50%;
 }
 
 .test{
-    padding: 3%;
-    margin-left: 37%;
+    margin: 3%;
+    margin-left: 40%;
 }
 
 .unico{
